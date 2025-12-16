@@ -210,7 +210,7 @@ const EnvelopeAnimation = ({ isVisible, animationsEnabled, score = 0 }: Envelope
                     {/* Decorative elements */}
                     <div className="mt-4 flex items-center justify-center space-x-2">
                       <div className="w-12 h-px bg-gray-400"></div>
-                      <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
+                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                       <div className="w-12 h-px bg-gray-400"></div>
                     </div>
                     

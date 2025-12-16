@@ -14,45 +14,45 @@
     
     /* PRIMARY - Clean White Background */
     --background: 0 0% 100%; /* Pure white background */
-    --foreground: 28 33% 18%; /* #3d2a20 - Dark brown text */
+    --foreground: 120 20% 25%; /* #1f4a2f - Dark green text */
 
     /* Card Colors - White with Shadow */
     --card: 0 0% 100%; /* Pure white cards */
-    --card-foreground: 28 33% 18%; /* #3d2a20 - Dark brown text */
+    --card-foreground: 120 20% 25%; /* #1f4a2f - Dark green text */
 
     /* Popover Colors */
     --popover: 0 0% 100%; /* White popover */
-    --popover-foreground: 28 33% 18%; /* #3d2a20 - Dark brown text */
+    --popover-foreground: 120 20% 25%; /* #1f4a2f - Dark green text */
 
     /* Brand Color */
-    --brand: 30 28% 22%; /* #4a3326 - Brown brand color */
+    --brand: 120 25% 30%; /* #1a5a2e - Dark green brand color */
     
-    /* SECONDARY - Dark Brown Accents */
-    --primary: 30 28% 22%; /* #4a3326 - Brown primary */
+    /* SECONDARY - Dark Green Accents */
+    --primary: 120 25% 30%; /* #1a5a2e - Dark green primary */
     --primary-foreground: 0 0% 100%; /* White text on dark */
 
     /* Secondary Colors */
-    --secondary: 30 15% 90%; /* Light brown secondary */
-    --secondary-foreground: 28 33% 18%; /* Dark brown text */
+    --secondary: 120 15% 90%; /* Light green secondary */
+    --secondary-foreground: 120 20% 25%; /* Dark green text */
 
     /* Muted Colors */
-    --muted: 30 15% 90%; /* Light brown muted */
-    --muted-foreground: 27 25% 35%; /* #5e4334 - Medium brown text */
+    --muted: 120 15% 90%; /* Light green muted */
+    --muted-foreground: 120 18% 40%; /* #2d6a42 - Medium green text */
 
-    /* ACCENT - Brown Accent */
-    --accent: 30 15% 90%; /* Light brown accent */
-    --accent-foreground: 28 33% 18%; /* Dark brown text */
+    /* ACCENT - Green Accent */
+    --accent: 120 15% 90%; /* Light green accent */
+    --accent-foreground: 120 20% 25%; /* Dark green text */
 
     /* Special Accent - for CTAs and highlights */
-    --gold: 27 34% 45%; /* #8b5a39 - Light brown for emphasis */
+    --gold: 120 28% 50%; /* #2d8f54 - Light green for emphasis */
     --gold-foreground: 0 0% 100%; /* White text on dark */
     
     /* Bright Accent - for emphasis */
-    --gold-bright: 30 28% 22%; /* #4a3326 - Brown for emphasis */
+    --gold-bright: 120 25% 30%; /* #1a5a2e - Dark green for emphasis */
     
-    /* Teal Accent - for timeline icons */
-    --teal: 183 52% 55%; /* #5ec1bf - Teal accent color */
-    --teal-foreground: 0 0% 100%; /* White text on teal */
+    /* Green Accent - for timeline icons */
+    --teal: 120 35% 55%; /* #4da86d - Light green accent color */
+    --teal-foreground: 0 0% 100%; /* White text on green */
 
     /* Aesthetic Palette - Modern grays */
     --rose-gold: 0 0% 96%; /* Light gray */
@@ -89,7 +89,7 @@
     --shadow-soft: 0 4px 20px -4px rgba(0, 0, 0, 0.1);
     --shadow-warm: 0 8px 30px -8px rgba(0, 0, 0, 0.12);
     --shadow-glow: 0 0 30px rgba(0, 0, 0, 0.08);
-    --shadow-teal: 0 25px 60px -20px hsla(183, 52%, 55%, 0.45);
+    --shadow-teal: 0 25px 60px -20px hsla(120, 35%, 55%, 0.45);
 
     /* Elegant Typography Scale */
     --font-display: 'Boska', 'Cormorant Garamond', serif; /* Headers - Boska 700 */
