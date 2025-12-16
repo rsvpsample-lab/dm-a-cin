@@ -70,13 +70,11 @@ const HashtagGiftsSection = () => {
                   className="text-sm md:text-base text-foreground/80 leading-relaxed"
                   data-testid="text-gifts-message"
                 >
-                  Your presence is the greatest gift we could ever receive.
-                  <br /><br />
-                  Should you wish to extend your generosity, a token of love and support toward our new beginnings would be deeply appreciated.
+                  YOUR PRESENCE AT OUR WEDDING IS MORE THAN ENOUGH, BUT IF WE ARE HONORED TO RECEIVE A GIFT FROM YOU, MAY WE REQUEST FOR MONETARY GIFT AS WE BEGIN OUR NEW LIFE TOGETHER.
                   <br /><br />
                   With love and gratitude,
                   <br />
-                  Dong and Riza
+                  Jirard Elmo and Toni Kaith
                 </p>
               </motion.div>
             </motion.div>

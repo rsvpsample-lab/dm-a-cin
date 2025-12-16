@@ -7,15 +7,16 @@ import guestsImage from '@assets/guests_1762584098544.png';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: 'Olive Green', color: '#6B6F3C', hex: '#6B6F3C' },
-    { name: 'Light Brown', color: '#B8906B', hex: '#B8906B' },
-    { name: 'Sage Green', color: '#C8C89E', hex: '#C8C89E' },
-    { name: 'Cream Beige', color: '#D5C9B1', hex: '#D5C9B1' }
+    { name: 'Sage Green', color: '#8FA792', hex: '#8FA792' },
+    { name: 'Light Olive', color: '#9DAE91', hex: '#9DAE91' },
+    { name: 'Soft Green', color: '#B9C4B2', hex: '#B9C4B2' },
+    { name: 'Cream', color: '#E3DECC', hex: '#E3DECC' },
+    { name: 'Beige', color: '#DDCFB6', hex: '#DDCFB6' },
+    { name: 'Tan', color: '#C8B8A1', hex: '#C8B8A1' }
   ];
 
   const principalSponsorsColors = [
-    { name: 'Deep Mauve', color: '#855752', hex: '#855752' },
-    { name: 'Rose Taupe', color: '#9e6862', hex: '#9e6862' }
+    { name: 'Dark Brown', color: '#3D2817', hex: '#3D2817' }
   ];
 
   return (
@@ -67,18 +68,19 @@ const DressCodeSection = () => {
                   <div className="mb-6 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent rounded-2xl"></div>
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
-                      FOR PRINCIPAL SPONSORS
+                      PRINCIPAL SPONSORS
                     </h3>
                     <div className="grid grid-cols-2 gap-4 text-left px-4">
                       <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Gentlemen:</p>
-                        <p className="text-sm text-foreground">Barong attire</p>
-                        <p className="text-sm text-foreground">Brown or khaki slacks</p>
+                        <p className="text-sm font-semibold text-foreground mb-2">NINONG:</p>
+                        <p className="text-sm text-foreground">Black Suit</p>
+                        <p className="text-sm text-foreground">White Inner Shirt</p>
+                        <p className="text-sm text-foreground">Dark Brown Neck Tie</p>
                       </div>
                       <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Ladies:</p>
-                        <p className="text-sm text-foreground">Modern Filipiniana</p>
-                        <p className="text-sm text-foreground">or Long Evening Gown</p>
+                        <p className="text-sm font-semibold text-foreground mb-2">NINANG:</p>
+                        <p className="text-sm text-foreground">Dark Brown</p>
+                        <p className="text-sm text-foreground">Long Gown</p>
                       </div>
                     </div>
                   </div>
@@ -92,14 +94,14 @@ const DressCodeSection = () => {
                   transition={{ duration: 0.8, delay: 8.5 }}
                 />
                 
-                {/* Color Palette for Principal Sponsors Ladies */}
+                {/* Color Palette for Principal Sponsors */}
                 <motion.div
                   className="mt-6 pt-6 border-t border-primary/20"
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 8.7 }}
                 >
-                  <p className="text-sm font-semibold text-foreground mb-3">Color Motif (Ladies)</p>
+                  <p className="text-sm font-semibold text-foreground mb-3">Color Reference</p>
                   <div className="flex justify-center gap-4">
                     {principalSponsorsColors.map((colorItem, index) => (
                       <div key={index} className="text-center">
@@ -137,19 +139,12 @@ const DressCodeSection = () => {
                   <div className="mb-6 relative">
                     <div className="absolute inset-0 bg-gradient-to-l from-primary/10 to-transparent rounded-2xl"></div>
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
-                      FOR GUESTS
+                      GUESTS
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 text-left px-4 mb-3">
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Gentlemen:</p>
-                        <p className="text-sm text-foreground">Barong or Polo Barong</p>
-                        <p className="text-sm text-foreground">Black slacks</p>
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Ladies:</p>
-                        <p className="text-sm text-foreground">Modern Filipiniana</p>
-                        <p className="text-sm text-foreground">or Long Evening Gown</p>
-                      </div>
+                    <div className="text-center px-4 mb-3">
+                      <p className="text-sm text-foreground leading-relaxed">
+                        We would love to see you in your best and most comfortable formal or semi-formal attire in any shade from our color palette.
+                      </p>
                     </div>
                   </div>
                 </motion.div>
@@ -194,14 +189,14 @@ const DressCodeSection = () => {
             <h3 className="text-xl font-body font-medium text-foreground mb-6 text-center">
               Wedding Guest Color Motif
             </h3>
-            <div className="grid grid-cols-4 gap-4 sm:gap-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-3 gap-4 sm:gap-6 max-w-2xl mx-auto">
               {dressCodeColors.map((colorItem, index) => (
                 <div key={index} className="text-center group">
                   <div 
                     className="w-16 h-16 sm:w-20 sm:h-20 mx-auto rounded-xl border-2 border-border shadow-soft group-hover:scale-105 transition-transform duration-300"
                     style={{ backgroundColor: colorItem.color }}
                   ></div>
-                  <p className="text-xs text-foreground mt-2">{colorItem.name}</p>
+                  <p className="text-xs text-foreground mt-2">{colorItem.hex}</p>
                 </div>
               ))}
             </div>

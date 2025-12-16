@@ -11,24 +11,24 @@ const VenueSection = () => {
   const venues = [
     {
       title: 'Ceremony',
-      name: 'Diocesan Shrine and Parish of Our Lady of the Pillar',
-      address: 'Imus, Cavite',
+      name: 'Diocesan Shrine and Parish of St. Pio of Pietrelcina',
+      address: '(formerly San Pedro Calungsod)',
       image: ceremonyImage,
       mapUrl: 'https://maps.app.goo.gl/6oAPZrvdjmzW3coo6',
-      mapEmbed: 'https://www.google.com/maps?q=Diocesan+Shrine+and+Parish+of+Our+Lady+of+the+Pillar+Imus+Cavite&output=embed',
-      description: 'Join us at the Diocesan Shrine and Parish of Our Lady of the Pillar for our wedding ceremony. This beautiful church will witness our vows of eternal love.',
+      mapEmbed: 'https://www.google.com/maps?q=Diocesan+Shrine+and+Parish+of+St+Pio+of+Pietrelcina&output=embed',
+      description: 'Join us at the Diocesan Shrine and Parish of St. Pio of Pietrelcina for our wedding ceremony. This beautiful church will witness our vows of eternal love.',
       details: 'The ceremony begins at 2:00 PM. Please arrive by 1:30 PM to be seated.',
       startTime: '2:00 PM',
       locationGuide: 'View on Maps →'
     },
     {
       title: 'Reception',
-      name: 'Sañez Farm Events Place',
-      address: 'Imus, Cavite',
+      name: 'The Chandelier Events Place',
+      address: '',
       image: receptionImage,
       mapUrl: 'https://maps.app.goo.gl/tFztuwErbaRK5BFC9',
-      mapEmbed: 'https://www.google.com/maps?q=Sa%C3%B1ez+Farm+Events+Place+Imus+Cavite&output=embed',
-      description: 'Join us at Sañez Farm Events Place for our wedding reception. This beautiful venue will host our celebration of love.',
+      mapEmbed: 'https://www.google.com/maps?q=The+Chandelier+Events+Place&output=embed',
+      description: 'Join us at The Chandelier Events Place for our wedding reception. This beautiful venue will host our celebration of love.',
       details: 'The reception begins at 5:30 PM. Cocktail hour starts at 4:00 PM.',
       startTime: '5:30 PM',
       locationGuide: 'View on Maps →'
