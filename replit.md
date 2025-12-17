@@ -22,6 +22,14 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated RSVP link and SEO metatags:
+  - RSVP link now points to https://robel-veronica-rsvp.replit.app
+  - Updated page title to "Robel & Veronica Wedding Invitation | January 20, 2026"
+  - Updated meta description with correct wedding details (date, venue, location)
+  - Updated Open Graph tags for social media sharing
+  - Updated Twitter card tags with hero image from Cloudinary
+  - All metatags now reflect Robel & Veronica's wedding on January 20, 2026 at Gospel Baptist Church
+
 - **2025-12-17**: Added Entourage link to navigation menu
   - Link appears in both desktop and mobile navigation
   - Scrolls smoothly to entourage section when clicked
