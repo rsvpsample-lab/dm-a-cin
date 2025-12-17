@@ -22,6 +22,12 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated theme colors:
+  - Changed primary color from dark green to gray (#333333)
+  - Updated shadow colors to champagne (#F8E8D0) instead of teal
+  - Updated all accent colors to champagne for the new elegant look
+  - Applied new color scheme throughout all components
+
 - **2025-12-17**: Updated wedding details for Robel & Veronica:
   - Updated couple names to "Robel & Veronica"
   - Changed wedding date to January 20, 2026 (01.20.26 | Tuesday) at 3:00 PM

@@ -14,44 +14,44 @@
     
     /* PRIMARY - Clean White Background */
     --background: 0 0% 100%; /* Pure white background */
-    --foreground: 120 20% 25%; /* #1f4a2f - Dark green text */
+    --foreground: 0 0% 20%; /* #333333 - Gray text */
 
     /* Card Colors - White with Shadow */
     --card: 0 0% 100%; /* Pure white cards */
-    --card-foreground: 120 20% 25%; /* #1f4a2f - Dark green text */
+    --card-foreground: 0 0% 20%; /* #333333 - Gray text */
 
     /* Popover Colors */
     --popover: 0 0% 100%; /* White popover */
-    --popover-foreground: 120 20% 25%; /* #1f4a2f - Dark green text */
+    --popover-foreground: 0 0% 20%; /* #333333 - Gray text */
 
     /* Brand Color */
-    --brand: 120 25% 30%; /* #1a5a2e - Dark green brand color */
+    --brand: 0 0% 20%; /* #333333 - Gray brand color */
     
-    /* SECONDARY - Dark Green Accents */
-    --primary: 120 25% 30%; /* #1a5a2e - Dark green primary */
+    /* SECONDARY - Gray Accents */
+    --primary: 0 0% 20%; /* #333333 - Gray primary */
     --primary-foreground: 0 0% 100%; /* White text on dark */
 
     /* Secondary Colors */
-    --secondary: 120 15% 90%; /* Light green secondary */
-    --secondary-foreground: 120 20% 25%; /* Dark green text */
+    --secondary: 35 84% 89%; /* Light champagne secondary */
+    --secondary-foreground: 0 0% 20%; /* Gray text */
 
     /* Muted Colors */
-    --muted: 120 15% 90%; /* Light green muted */
-    --muted-foreground: 120 18% 40%; /* #2d6a42 - Medium green text */
+    --muted: 35 84% 89%; /* Light champagne muted */
+    --muted-foreground: 0 0% 40%; /* Medium gray text */
 
-    /* ACCENT - Green Accent */
-    --accent: 120 15% 90%; /* Light green accent */
-    --accent-foreground: 120 20% 25%; /* Dark green text */
+    /* ACCENT - Champagne Accent */
+    --accent: 35 84% 89%; /* Light champagne accent */
+    --accent-foreground: 0 0% 20%; /* Gray text */
 
     /* Special Accent - for CTAs and highlights */
-    --gold: 120 28% 50%; /* #2d8f54 - Light green for emphasis */
+    --gold: 35 70% 60%; /* Champagne for emphasis */
     --gold-foreground: 0 0% 100%; /* White text on dark */
     
     /* Bright Accent - for emphasis */
-    --gold-bright: 120 25% 30%; /* #1a5a2e - Dark green for emphasis */
+    --gold-bright: 0 0% 20%; /* #333333 - Gray for emphasis */
     
-    /* Green Accent - for timeline icons */
-    --teal: 120 35% 55%; /* #4da86d - Light green accent color */
+    /* Champagne Accent - for timeline icons */
+    --teal: 35 84% 81%; /* #F8E8D0 - Champagne accent color */
     --teal-foreground: 0 0% 100%; /* White text on green */
 
     /* Aesthetic Palette - Modern grays */
@@ -89,7 +89,7 @@
     --shadow-soft: 0 4px 20px -4px rgba(0, 0, 0, 0.1);
     --shadow-warm: 0 8px 30px -8px rgba(0, 0, 0, 0.12);
     --shadow-glow: 0 0 30px rgba(0, 0, 0, 0.08);
-    --shadow-teal: 0 25px 60px -20px hsla(120, 35%, 55%, 0.45);
+    --shadow-teal: 0 25px 60px -20px hsla(35, 84%, 81%, 0.3);
 
     /* Elegant Typography Scale */
     --font-display: 'Boska', 'Cormorant Garamond', serif; /* Headers - Boska 700 */
