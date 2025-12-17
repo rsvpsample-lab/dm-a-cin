@@ -22,6 +22,10 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Refined entourage layout formatting:
+  - Principal Sponsors: Single sponsors (Mrs. Che Austral, Kgwd. Tessie Porceso, Mr. Duphin Pescadilla, Miss Shalyn Galanza) now centered between partner columns
+  - Groomsmen & Bridesmaids: Improved responsive layout with proper centering for unequal counts
+
 - **2025-12-17**: Updated complete entourage section:
   - Parents: Roble Dilag Andales SR., Elisam Dela Torre Andales, and Myrna D. Mangibin
   - 25 Principal Sponsor couples with pastors and officiants
