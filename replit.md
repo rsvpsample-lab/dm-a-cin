@@ -22,6 +22,18 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated complete entourage section:
+  - Parents: Roble Dilag Andales SR., Elisam Dela Torre Andales, and Myrna D. Mangibin
+  - 25 Principal Sponsor couples with pastors and officiants
+  - Candle, Veil & Cord sponsors (3 couples)
+  - Best Man: Pastor Mark Anthony Mahinay
+  - 2 Maids of Honor: Vanissa Mae and Vianca Mangibin
+  - 11 Groomsmen and 13 Bridesmaids
+  - 3 Bearers: Bible, Coin, and Ring (Peñaflorida siblings)
+  - 4 Flower Maidens
+  - Little Bride: Alwina D. Milleza
+  - 2 Wedding Officiants: Pastor Felixberto A. Peñaflorida and Pastor Sandy Villasis
+
 - **2025-12-17**: Updated polaroid invitation images:
   - Groom image: New custom photo
   - Soulmates image: Beautiful couple photo
