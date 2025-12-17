@@ -20,7 +20,7 @@ const RSVPSection = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 10.8 }}
         >
           <h2 
-            className="text-gold text-[48px] md:text-5xl" 
+            className="text-[48px] md:text-5xl text-[#636569]" 
             style={{ fontFamily: 'Boska, serif', fontWeight: 300, fontStyle: 'normal' }} 
             data-testid="text-rsvp-header"
           >
