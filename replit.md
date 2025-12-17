@@ -22,6 +22,14 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated wedding timeline with correct times:
+  - 3:00 PM - Guest Arrival
+  - 4:00 PM - Wedding Ceremony
+  - 5:00 PM - Photo Session & Refreshments
+  - 6:30 PM - Reception
+  - Updated timeline in ScrollTriggeredTimeline component
+  - Updated venue details and start time in VenueSection
+
 - **2025-12-17**: Restructured cover images and removed Save the Date video:
   - Removed Save the Date video section
   - Added Cover 1 image after timeline

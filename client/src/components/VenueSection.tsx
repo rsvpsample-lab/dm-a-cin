@@ -18,8 +18,8 @@ const VenueSection = () => {
       mapUrl: 'https://maps.app.goo.gl/6oAPZrvdjmzW3coo6',
       mapEmbed: 'https://www.google.com/maps?q=Gospel+Baptist+Church+Bacolod&output=embed',
       description: 'Join us at Gospel Baptist Church for our wedding ceremony and reception. This beautiful church will witness our vows of eternal love and our celebration of marriage.',
-      details: 'Ceremony begins at 4:00 PM. Guest Arrival at 3:00 PM. Photo Session & Refreshments at 5:00 PM. Reception at 6:30 PM.',
-      startTime: '4:00 PM',
+      details: 'Guest Arrival at 3:00 PM. Ceremony begins at 4:00 PM. Photo Session & Refreshments at 5:00 PM. Reception at 6:30 PM.',
+      startTime: '3:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];
