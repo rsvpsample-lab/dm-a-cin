@@ -22,6 +22,10 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Added Entourage link to navigation menu
+  - Link appears in both desktop and mobile navigation
+  - Scrolls smoothly to entourage section when clicked
+
 - **2025-12-17**: Refined entourage layout formatting:
   - Principal Sponsors: Single sponsors (Mrs. Che Austral, Kgwd. Tessie Porceso, Mr. Duphin Pescadilla, Miss Shalyn Galanza) now centered between partner columns
   - Groomsmen & Bridesmaids: Improved responsive layout with proper centering for unequal counts
