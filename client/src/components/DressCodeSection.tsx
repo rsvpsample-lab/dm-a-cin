@@ -1,9 +1,4 @@
 import { motion } from 'framer-motion';
-import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-import principalSponsorsImage from '@assets/princi_1762584098544.png';
-import flower9 from '@assets/flower9_1759741371017.png';
-import flower3 from '@assets/flower3_1759741371015.png';
-import guestsImage from '@assets/guests_1762584098544.png';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
@@ -48,8 +43,8 @@ const DressCodeSection = () => {
         </motion.div>
 
         {/* Modern Dress Code Grid */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          {/* Principal Sponsors */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
+          {/* Entourage */}
           <motion.div 
             className="group"
             initial={{ opacity: 0, x: -50 }}
@@ -57,55 +52,87 @@ const DressCodeSection = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 8.1 }}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 h-full relative">
-              {/* Flower Decoration */}
-              <img src={flower9} alt="" className="absolute top-2 right-2 w-16 md:w-20 opacity-80" />
-              
+            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-6 hover-elegant transition-all duration-500 h-full relative">
               <div className="text-center">
                 <motion.div
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
                   transition={{ duration: 0.6, delay: 8.3 }}
                 >
-                  <div className="mb-6 relative">
+                  <div className="mb-4 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent rounded-2xl"></div>
-                    <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
-                      PRINCIPAL SPONSORS
+                    <h3 className="text-lg font-display font-medium text-foreground mb-3 relative z-10">
+                      ENTOURAGE
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 text-left px-4">
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">FORMAL ATTIRE:</p>
-                        <p className="text-sm text-foreground">Gray Color</p>
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">ENTOURAGE:</p>
-                        <p className="text-sm text-foreground">Gray & Champagne</p>
-                      </div>
-                    </div>
+                    <p className="text-sm text-foreground leading-relaxed px-2">
+                      Gray and Champagne
+                    </p>
                   </div>
                 </motion.div>
-                <motion.img 
-                  src={principalSponsorsImage}
-                  alt="Principal Sponsors attire guide"
-                  className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-md group-hover:shadow-lg transition-shadow duration-300"
-                  initial={{ opacity: 0, y: 20 }}
+                
+                {/* Color Palette for Entourage */}
+                <motion.div
+                  className="mt-4 pt-4 border-t border-primary/20"
+                  initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 8.5 }}
-                />
+                  transition={{ duration: 0.6, delay: 8.5 }}
+                >
+                  <p className="text-sm font-semibold text-foreground mb-3">Color Reference</p>
+                  <div className="flex justify-center gap-3">
+                    {entourageColors.map((colorItem, index) => (
+                      <div key={index} className="text-center">
+                        <div 
+                          className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
+                          style={{ backgroundColor: colorItem.color }}
+                        ></div>
+                        <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
+                      </div>
+                    ))}
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Principal Sponsors */}
+          <motion.div 
+            className="group"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 8.2 }}
+            whileHover={{ scale: 1.02 }}
+          >
+            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-6 hover-elegant transition-all duration-500 h-full relative">
+              <div className="text-center">
+                <motion.div
+                  initial={{ scale: 0.8 }}
+                  animate={{ scale: 1 }}
+                  transition={{ duration: 0.6, delay: 8.4 }}
+                >
+                  <div className="mb-4 relative">
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent rounded-2xl"></div>
+                    <h3 className="text-lg font-display font-medium text-foreground mb-3 relative z-10">
+                      PRINCIPAL SPONSORS
+                    </h3>
+                    <p className="text-sm text-foreground leading-relaxed px-2">
+                      Gray (Formal Attire)
+                    </p>
+                  </div>
+                </motion.div>
                 
                 {/* Color Palette for Principal Sponsors */}
                 <motion.div
-                  className="mt-6 pt-6 border-t border-primary/20"
+                  className="mt-4 pt-4 border-t border-primary/20"
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 8.7 }}
+                  transition={{ duration: 0.6, delay: 8.6 }}
                 >
                   <p className="text-sm font-semibold text-foreground mb-3">Color Reference</p>
-                  <div className="flex justify-center gap-4">
+                  <div className="flex justify-center gap-3">
                     {principalSponsorsColors.map((colorItem, index) => (
                       <div key={index} className="text-center">
                         <div 
-                          className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
+                          className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
                           style={{ backgroundColor: colorItem.color }}
                         ></div>
                         <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
@@ -122,53 +149,40 @@ const DressCodeSection = () => {
             className="group"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 8.4 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 8.3 }}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 h-full relative">
-              {/* Flower Decoration */}
-              <img src={flower3} alt="" className="absolute top-2 left-2 w-20 md:w-24 opacity-80 transform -rotate-12" />
-              
+            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-6 hover-elegant transition-all duration-500 h-full relative">
               <div className="text-center">
                 <motion.div
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
-                  transition={{ duration: 0.6, delay: 8.6 }}
+                  transition={{ duration: 0.6, delay: 8.5 }}
                 >
-                  <div className="mb-6 relative">
+                  <div className="mb-4 relative">
                     <div className="absolute inset-0 bg-gradient-to-l from-primary/10 to-transparent rounded-2xl"></div>
-                    <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
+                    <h3 className="text-lg font-display font-medium text-foreground mb-3 relative z-10">
                       GUESTS
                     </h3>
-                    <div className="text-center px-4 mb-3">
-                      <p className="text-sm text-foreground leading-relaxed">
-                        Please wear beige, taupe, or cream in semi-formal attire.
-                      </p>
-                    </div>
+                    <p className="text-sm text-foreground leading-relaxed px-2">
+                      Beige, Taupe or Cream (Semi-Formal Attire)
+                    </p>
                   </div>
                 </motion.div>
-                <motion.img 
-                  src={guestsImage}
-                  alt="Guests attire guide"
-                  className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-md group-hover:shadow-lg transition-shadow duration-300"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 8.8 }}
-                />
 
                 {/* Color Palette for Guests */}
                 <motion.div
-                  className="mt-6 pt-6 border-t border-primary/20"
+                  className="mt-4 pt-4 border-t border-primary/20"
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 9.0 }}
+                  transition={{ duration: 0.6, delay: 8.7 }}
                 >
-                  <p className="text-sm font-semibold text-foreground mb-3">Guest Color Palette</p>
-                  <div className="grid grid-cols-3 gap-4 sm:gap-6 max-w-2xl mx-auto">
+                  <p className="text-sm font-semibold text-foreground mb-3">Color Reference</p>
+                  <div className="flex justify-center gap-2">
                     {dressCodeColors.map((colorItem, index) => (
-                      <div key={index} className="text-center group">
+                      <div key={index} className="text-center">
                         <div 
-                          className="w-14 h-14 sm:w-16 sm:h-16 mx-auto rounded-xl border-2 border-border shadow-soft group-hover:scale-105 transition-transform duration-300"
+                          className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
                           style={{ backgroundColor: colorItem.color }}
                         ></div>
                         <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
