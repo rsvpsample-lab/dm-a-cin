@@ -22,6 +22,12 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Restructured cover images and removed Save the Date video:
+  - Removed Save the Date video section
+  - Added Cover 1 image after timeline
+  - Added Cover 3 image between Entourage and RSVP sections
+  - All covers using Cloudinary CDN for optimal performance
+
 - **2025-12-17**: Updated RSVP link and SEO metatags:
   - RSVP link now points to https://robel-veronica-rsvp.replit.app
   - Updated page title to "Robel & Veronica Wedding Invitation | January 20, 2026"

@@ -4,7 +4,9 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ImageLoop from '@/components/ImageLoop';
 // Cover media - using Cloudinary URLs
+const cover1Image = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/cover1_qc8xn2.jpg';
 const cover2Image = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/cover2_cchxop.jpg';
+const cover3Image = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/cover3_ou4oak.jpg';
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
@@ -18,7 +20,6 @@ import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import CoverSection from '@/components/CoverSection';
 import InvitationRevealSection from '@/components/InvitationRevealSection';
-import SaveTheDateSection from '@/components/SaveTheDateSection';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 import { AnimationContext } from '@/contexts/AnimationContext';
 
@@ -65,27 +66,25 @@ const Index = () => {
         <CountdownSection />
         <ImageLoop />
         <StorySection />
-        <SaveTheDateSection audioRef={audioRef} />
         <ScrollTriggeredTimeline />
+        <CoverSection
+          imageUrl={cover1Image}
+          alt="Wedding Cover 1"
+        />
         <VenueSection />
         <CoverSection
           imageUrl={cover2Image}
-          alt="Dong & Riza Wedding Cover 2"
+          alt="Wedding Cover 2"
         />
         <DressCodeSection />
         <HashtagGiftsSection />
         <MemorableMomentsSection />
-        <RSVPSection />
-        <CoverSection
-          youtubeVideoId="EMa2ePJdSso"
-          youtubeStartTime={14}
-          youtubeEndTime={30}
-          alt="Wedding Video Cover"
-          showControls={false}
-          showYoutubeBranding={false}
-          enableInteraction={false}
-        />
         <EntourageSection />
+        <CoverSection
+          imageUrl={cover3Image}
+          alt="Wedding Cover 3"
+        />
+        <RSVPSection />
         <FAQSection />
         <Footer />
       </main>
