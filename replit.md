@@ -22,10 +22,11 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
-- **2025-12-17**: Updated theme colors:
-  - Changed primary color from dark green to gray (#333333)
-  - Updated shadow colors to champagne (#F8E8D0) instead of teal
-  - Updated all accent colors to champagne for the new elegant look
+- **2025-12-17**: Updated theme colors with enhanced visibility:
+  - Changed primary color to Dark Slate Grey (#646566)
+  - Updated shadow colors to Soft Beige (#E2CBAA) with increased opacity (0.5)
+  - Updated all accent colors to Soft Beige for the new elegant look
+  - Increased shadow opacity for better visibility and contrast
   - Applied new color scheme throughout all components
 
 - **2025-12-17**: Updated wedding details for Robel & Veronica:
