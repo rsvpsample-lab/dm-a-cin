@@ -22,6 +22,12 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated polaroid invitation images:
+  - Groom image: New custom photo
+  - Soulmates image: Beautiful couple photo
+  - Bride image: New custom photo
+  - Changed polaroid labels from "soulmates/forever/beloved" to "groom/soulmates/bride"
+
 - **2025-12-17**: Updated all website images and background music:
   - Background music: "Us Together Lyric video" from Cloudinary
   - Hero image: New custom wedding photo

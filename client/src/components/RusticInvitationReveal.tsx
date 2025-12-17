@@ -2,10 +2,10 @@ import { Heart } from 'lucide-react';
 import flower1Image from '@assets/flower1_1759854441524.png';
 import flowerImage from '@assets/flower_1759854441531.png';
 
-// Polaroid images
-import soulmatesImage from '@assets/Top 1_1762580196001.jpg';
-import foreverImage from '@assets/Top 2_1762580196001.jpg';
-import belovedImage from '@assets/Top 3_1762580196002.jpg';
+// Polaroid images from Cloudinary
+const groomImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/groom_maoove.jpg';
+const soulmatesImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958422/prenup1_o6fflm.jpg';
+const brideImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958422/bride_auczs0.jpg';
 
 interface RusticInvitationRevealProps {
   animationsEnabled: boolean;
@@ -13,9 +13,9 @@ interface RusticInvitationRevealProps {
 
 const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealProps) => {
   const polaroids = [
+    { src: groomImage, alt: 'groom' },
     { src: soulmatesImage, alt: 'soulmates' },
-    { src: foreverImage, alt: 'forever' },
-    { src: belovedImage, alt: 'beloved' }
+    { src: brideImage, alt: 'bride' }
   ];
 
   return (
