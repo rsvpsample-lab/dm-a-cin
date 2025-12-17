@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion';
 
+const entourageImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765964674/24811e78-eae6-408e-adae-2205754ea46b.png';
+const principalSponsorsImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765964735/04638710-fa13-437b-a97b-29e7297bac63.png';
+const guestsImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765964852/ac51e581-61c7-439f-8957-3654c65c85cc.png';
+
 const DressCodeSection = () => {
   const dressCodeColors = [
     { name: 'Beige', color: '#EDD5C9', hex: '#EDD5C9' },
@@ -70,6 +74,15 @@ const DressCodeSection = () => {
                   </div>
                 </motion.div>
                 
+                <motion.img 
+                  src={entourageImage}
+                  alt="Entourage attire guide"
+                  className="w-full max-w-xs mx-auto object-contain rounded-xl shadow-md mb-4"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 8.4 }}
+                />
+                
                 {/* Color Palette for Entourage */}
                 <motion.div
                   className="mt-4 pt-4 border-t border-primary/20"
@@ -120,6 +133,15 @@ const DressCodeSection = () => {
                   </div>
                 </motion.div>
                 
+                <motion.img 
+                  src={principalSponsorsImage}
+                  alt="Principal Sponsors attire guide"
+                  className="w-full max-w-xs mx-auto object-contain rounded-xl shadow-md mb-4"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 8.5 }}
+                />
+                
                 {/* Color Palette for Principal Sponsors */}
                 <motion.div
                   className="mt-4 pt-4 border-t border-primary/20"
@@ -169,6 +191,15 @@ const DressCodeSection = () => {
                     </p>
                   </div>
                 </motion.div>
+
+                <motion.img 
+                  src={guestsImage}
+                  alt="Guests attire guide"
+                  className="w-full max-w-xs mx-auto object-contain rounded-xl shadow-md mb-4"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 8.6 }}
+                />
 
                 {/* Color Palette for Guests */}
                 <motion.div
