@@ -22,6 +22,16 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated all website images and background music:
+  - Background music: "Us Together Lyric video" from Cloudinary
+  - Hero image: New custom wedding photo
+  - Love story image: "Our Story" couple photo
+  - Gift guide image: Updated design photo
+  - Venue image: Gospel Baptist Church photo
+  - All prenup photos: 15+ wedding photos from Cloudinary
+  - Cover images: Updated cover1, cover2, cover3
+  - Migrated all images from local assets to Cloudinary CDN for better performance
+
 - **2025-12-17**: Updated theme colors with enhanced visibility:
   - Changed primary color to Dark Slate Grey (#646566)
   - Updated shadow colors to Soft Beige (#E2CBAA) with increased opacity (0.5)

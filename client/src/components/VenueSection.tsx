@@ -4,8 +4,9 @@ import { MapPin, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { LinkPreview } from '@/components/ui/link-preview';
 
-import ceremonyImage from '@assets/ceremony_1762597121591.png';
-import receptionImage from "@assets/reception_1762597125960.jpg";
+// Venue image from Cloudinary
+const ceremonyImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/Gospel_Baptist_Church_iitfyv.jpg';
+const receptionImage = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/Gospel_Baptist_Church_iitfyv.jpg';
 
 const VenueSection = () => {
   const venues = [

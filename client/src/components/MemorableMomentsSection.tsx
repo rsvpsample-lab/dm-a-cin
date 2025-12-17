@@ -3,22 +3,22 @@ import { motion } from 'framer-motion';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { X } from 'lucide-react';
 
-// Local prenup photos
-import prenup1 from '@assets/prenup1_1762584613683.jpg';
-import prenup2 from '@assets/prenup2_1762584613684.jpg';
-import prenup3 from '@assets/prenup3_1762584613685.jpg';
-import prenup5 from '@assets/prenup5_1762584613686.jpg';
-import prenup6 from '@assets/prenup6_1762584613686.jpg';
-import prenup8 from '@assets/prenup8_1762584613686.jpg';
-import prenup9 from '@assets/prenup9_1762584613687.jpg';
-import prenup10 from '@assets/prenup10_1762584613687.jpg';
-import prenup13 from '@assets/prenup13_1762584613687.jpg';
-import prenup14 from '@assets/prenup14_1762584613688.jpg';
-import prenup16 from '@assets/prenup16_1762584613688.jpg';
-import prenup17 from '@assets/prenup17_1762584613691.jpg';
-import prenup18 from '@assets/prenup18_1762584613691.jpg';
-import prenup19 from '@assets/prenup19_1762584613692.jpg';
-import prenup20 from '@assets/prenup20_1762584613693.jpg';
+// Prenup photos from Cloudinary
+const prenup1 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958422/prenup1_o6fflm.jpg';
+const prenup2 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/prenup2_i48ixs.jpg';
+const prenup3 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958424/prenup3_aep1px.jpg';
+const prenup5 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958424/prenup5_feqsyw.jpg';
+const prenup6 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958424/prenup6_y4583s.jpg';
+const prenup8 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958425/prenup8_d1lmcm.jpg';
+const prenup9 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958425/prenup9_bweuyk.jpg';
+const prenup10 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958425/prenup10_g6njfi.jpg';
+const prenup13 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958424/prenup4_kshaea.jpg'; // placeholder
+const prenup14 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958424/prenup7_f0fr96.jpg'; // placeholder
+const prenup16 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958425/prenup8_d1lmcm.jpg'; // placeholder
+const prenup17 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958425/prenup9_bweuyk.jpg'; // placeholder
+const prenup18 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958425/prenup10_g6njfi.jpg'; // placeholder
+const prenup19 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/prenup1_o6fflm.jpg'; // placeholder
+const prenup20 = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/prenup2_i48ixs.jpg'; // placeholder
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);

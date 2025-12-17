@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from 'react';
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ImageLoop from '@/components/ImageLoop';
-// Cover media
-import cover2Image from '@assets/Dong&Ris-209_1762581138035.jpg';
+// Cover media - using Cloudinary URLs
+const cover2Image = 'https://res.cloudinary.com/dhmpt6d6k/image/upload/v1765958423/cover2_cchxop.jpg';
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
@@ -48,7 +48,7 @@ const Index = () => {
         preload="auto"
         style={{ display: 'none' }}
         data-testid="background-audio"
-        src="https://res.cloudinary.com/da4jexvxy/video/upload/v1762581346/ytmp3free.cc_kay-tagal-kitang-hinintay-sponge-cola-with-lyrics-youtubemp3free.org_t9kqqe.mp3"
+        src="https://res.cloudinary.com/dhmpt6d6k/video/upload/v1765958432/Us_Together_Lyric_video_rbz5un.mp3"
       />
 
       <MusicConsentPopup 
