@@ -7,16 +7,18 @@ import guestsImage from '@assets/guests_1762584098544.png';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: 'Sage Green', color: '#8FA792', hex: '#8FA792' },
-    { name: 'Light Olive', color: '#9DAE91', hex: '#9DAE91' },
-    { name: 'Soft Green', color: '#B9C4B2', hex: '#B9C4B2' },
-    { name: 'Cream', color: '#E3DECC', hex: '#E3DECC' },
-    { name: 'Beige', color: '#DDCFB6', hex: '#DDCFB6' },
-    { name: 'Tan', color: '#C8B8A1', hex: '#C8B8A1' }
+    { name: 'Beige', color: '#EDD5C9', hex: '#EDD5C9' },
+    { name: 'Taupe', color: '#A39C8E', hex: '#A39C8E' },
+    { name: 'Cream', color: '#FEF9F3', hex: '#FEF9F3' }
   ];
 
   const principalSponsorsColors = [
-    { name: 'Dark Brown', color: '#3D2817', hex: '#3D2817' }
+    { name: 'Gray', color: '#808080', hex: '#808080' }
+  ];
+
+  const entourageColors = [
+    { name: 'Gray', color: '#808080', hex: '#808080' },
+    { name: 'Champagne', color: '#F8E8D0', hex: '#F8E8D0' }
   ];
 
   return (
@@ -72,15 +74,12 @@ const DressCodeSection = () => {
                     </h3>
                     <div className="grid grid-cols-2 gap-4 text-left px-4">
                       <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">NINONG:</p>
-                        <p className="text-sm text-foreground">Black Suit</p>
-                        <p className="text-sm text-foreground">White Inner Shirt</p>
-                        <p className="text-sm text-foreground">Dark Brown Neck Tie</p>
+                        <p className="text-sm font-semibold text-foreground mb-2">FORMAL ATTIRE:</p>
+                        <p className="text-sm text-foreground">Gray Color</p>
                       </div>
                       <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">NINANG:</p>
-                        <p className="text-sm text-foreground">Dark Brown</p>
-                        <p className="text-sm text-foreground">Long Gown</p>
+                        <p className="text-sm font-semibold text-foreground mb-2">ENTOURAGE:</p>
+                        <p className="text-sm text-foreground">Gray & Champagne</p>
                       </div>
                     </div>
                   </div>
@@ -143,7 +142,7 @@ const DressCodeSection = () => {
                     </h3>
                     <div className="text-center px-4 mb-3">
                       <p className="text-sm text-foreground leading-relaxed">
-                        We would love to see you in your best and most comfortable formal or semi-formal attire in any shade from our color palette.
+                        Please wear beige, taupe, or cream in semi-formal attire.
                       </p>
                     </div>
                   </div>
@@ -164,7 +163,7 @@ const DressCodeSection = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 9.0 }}
                 >
-                  <p className="text-sm font-semibold text-foreground mb-3">Wedding Guest Color Motif</p>
+                  <p className="text-sm font-semibold text-foreground mb-3">Guest Color Palette</p>
                   <div className="grid grid-cols-3 gap-4 sm:gap-6 max-w-2xl mx-auto">
                     {dressCodeColors.map((colorItem, index) => (
                       <div key={index} className="text-center group">
@@ -172,7 +171,7 @@ const DressCodeSection = () => {
                           className="w-14 h-14 sm:w-16 sm:h-16 mx-auto rounded-xl border-2 border-border shadow-soft group-hover:scale-105 transition-transform duration-300"
                           style={{ backgroundColor: colorItem.color }}
                         ></div>
-                        <p className="text-xs text-foreground mt-1">{colorItem.hex}</p>
+                        <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
                       </div>
                     ))}
                   </div>

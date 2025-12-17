@@ -1,7 +1,7 @@
 # Wedding Invitation Website
 
 ## Overview
-This project is a full-stack JavaScript application for a wedding invitation website for Jirard Elmo & Toni Kaith, celebrating their wedding on January 27, 2026. It features a responsive, interactive, and modern design with multiple sections including hero, slideshow, invitation details, countdown, story, venue, RSVP, and more. The website aims to provide an elegant and engaging experience for wedding guests. Key capabilities include an interactive quiz game to reveal different invitation designs, background music with user interaction, and SEO optimization.
+This project is a full-stack JavaScript application for a wedding invitation website for Robel & Veronica, celebrating their wedding on January 20, 2026. It features a responsive, interactive, and modern design with multiple sections including hero, slideshow, invitation details, countdown, story, venue, RSVP, and more. The website aims to provide an elegant and engaging experience for wedding guests. Key capabilities include an interactive quiz game to reveal different invitation designs, background music with user interaction, and SEO optimization.
 
 ## User Preferences
 - Background music should play automatically when clicking "Open Invitation" with NO control buttons
@@ -22,6 +22,30 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
+- **2025-12-17**: Updated wedding details for Robel & Veronica:
+  - Updated couple names to "Robel & Veronica"
+  - Changed wedding date to January 20, 2026 (01.20.26 | Tuesday) at 3:00 PM
+  - Updated venue to single combined ceremony and reception location:
+    - Gospel Baptist Church, Brgy. Mandalagan, Bacolod City
+  - Updated timeline:
+    - 3:00 PM - Guest Arrival
+    - 4:00 PM - Wedding Ceremony
+    - 5:00 PM - Photo Session & Refreshments
+    - 6:30 PM - Reception
+  - Updated attire guide:
+    - Entourage: Gray and Champagne
+    - Principal Sponsors: Gray (formal attire)
+    - Guests: Beige, Taupe, or Cream (semi-formal attire)
+  - Updated wedding guest color palette: Beige (#EDD5C9), Taupe (#A39C8E), Cream (#FEF9F3)
+  - Updated story section with Robel & Veronica's narrative:
+    - Met at Global Pastor's & Worker's Conference in 2016
+    - Share commitment to God's calling
+    - Feature Colossians 3:14 (KJV) Bible verse
+  - Updated gift guide message signature to "Robel and Veronica"
+  - Updated countdown timer to January 20, 2026 at 3:00 PM
+  - Updated all footer content with new couple names and date
+  - Added hashtag reference: #RoBelongsToVeronicaForever
+
 - **2025-12-16**: Updated wedding details for Jirard Elmo & Toni Kaith:
   - Updated couple names to "Jirard Elmo & Toni Kaith"
   - Changed wedding date to January 27, 2026 at 2:00 PM
@@ -48,4 +72,3 @@ The application is a full-stack JavaScript project using a React frontend with T
   - Updated wedding guest color motif with earth tones
   - Updated countdown timer to January 10, 2026 at 2:00 PM
   - Completely redesigned love story section
-

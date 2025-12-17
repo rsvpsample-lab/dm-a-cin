@@ -22,7 +22,7 @@ const StorySection = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-foreground mb-3" data-testid="text-story-title">
           OUR STORY
         </h2>
-        <p className="text-center text-sm sm:text-base text-foreground/60 italic">A couple, a spark, and a shared love for adventure</p>
+        <p className="text-center text-sm sm:text-base text-foreground/60 italic">God allowed our paths to cross in 2016, and today we walk together in faith</p>
       </motion.div>
       <div className="max-w-6xl mx-auto">
         <motion.div
@@ -41,15 +41,17 @@ const StorySection = () => {
             {/* Complete Story */}
             <div className="space-y-4 text-base text-foreground/90 leading-relaxed" data-testid="text-story-content">
               <p>
-                It all began in December 2020 — a simple conversation that quickly grew into something special. What started as friendly chats soon turned into late-night talks filled with laughter, shared dreams, and a connection that felt real and effortless.
+                God allowed our paths to cross at a Global Pastor's & Worker's Conference in 2016. Who would have thought that meeting would lead to a wedding?
               </p>
               
               <p>
-                By March 2021, our hearts already knew — this was the beginning of something beautiful. Since then, we've shared countless adventures together. Our days are made even brighter by our two adorable fur babies, Maxi and Mocha, who remind us every day what unconditional love looks like.
+                Our Commitment: We promise to walk in the calling God has given us, trusting that together we can do greater things, empowered by the love and support we share.
               </p>
               
               <p>
-                And now, as we step into this new chapter as husband and wife, we're beyond grateful for the journey that brought us here — and for the love that continues to grow with every beat of our hearts.
+                <span className="font-semibold">Colossians 3:14 (KJV)</span>
+                <br/>
+                "And above all these things put on charity, which is the bond of perfectness"
               </p>
             </div>
           </div>

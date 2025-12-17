@@ -40,7 +40,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
           {animationsEnabled ? (
             <TypeAnimation
               sequence={[
-                'JIRARD ELMO & TONI KAITH',
+                'ROBEL & VERONICA',
                 () => {
                   setShowElements(true);
                 }
@@ -61,7 +61,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
               }}
               className="typewriter-text"
             >
-              JIRARD ELMO & TONI KAITH
+              ROBEL & VERONICA
             </span>
           )}
         </h1>
@@ -69,7 +69,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
         {/* Date */}
         <div className={`transition-all duration-700 mt-6 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
           <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase" data-testid="text-date" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
-            January 27, 2026
+            01.20.26 | Tuesday
           </p>
         </div>
       </div>

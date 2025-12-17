@@ -74,7 +74,7 @@ const HashtagGiftsSection = () => {
                   <br /><br />
                   With love and gratitude,
                   <br />
-                  Jirard Elmo and Toni Kaith
+                  Robel and Veronica
                 </p>
               </motion.div>
             </motion.div>

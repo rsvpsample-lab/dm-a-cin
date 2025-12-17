@@ -10,27 +10,15 @@ import receptionImage from "@assets/reception_1762597125960.jpg";
 const VenueSection = () => {
   const venues = [
     {
-      title: 'Ceremony',
-      name: 'Diocesan Shrine and Parish of St. Pio of Pietrelcina',
-      address: '(formerly San Pedro Calungsod)',
+      title: 'Ceremony & Reception',
+      name: 'Gospel Baptist Church',
+      address: 'Brgy. Mandalagan, Bacolod City',
       image: ceremonyImage,
       mapUrl: 'https://maps.app.goo.gl/6oAPZrvdjmzW3coo6',
-      mapEmbed: 'https://www.google.com/maps?q=Diocesan+Shrine+and+Parish+of+St+Pio+of+Pietrelcina&output=embed',
-      description: 'Join us at the Diocesan Shrine and Parish of St. Pio of Pietrelcina for our wedding ceremony. This beautiful church will witness our vows of eternal love.',
-      details: 'The ceremony begins at 2:00 PM. Please arrive by 1:30 PM to be seated.',
-      startTime: '2:00 PM',
-      locationGuide: 'View on Maps →'
-    },
-    {
-      title: 'Reception',
-      name: 'The Chandelier Events Place',
-      address: '',
-      image: receptionImage,
-      mapUrl: 'https://maps.app.goo.gl/tFztuwErbaRK5BFC9',
-      mapEmbed: 'https://www.google.com/maps?q=The+Chandelier+Events+Place&output=embed',
-      description: 'Join us at The Chandelier Events Place for our wedding reception. This beautiful venue will host our celebration of love.',
-      details: 'The reception begins at 5:30 PM. Cocktail hour starts at 4:00 PM.',
-      startTime: '5:30 PM',
+      mapEmbed: 'https://www.google.com/maps?q=Gospel+Baptist+Church+Bacolod&output=embed',
+      description: 'Join us at Gospel Baptist Church for our wedding ceremony and reception. This beautiful church will witness our vows of eternal love and our celebration of marriage.',
+      details: 'Ceremony begins at 4:00 PM. Guest Arrival at 3:00 PM. Photo Session & Refreshments at 5:00 PM. Reception at 6:30 PM.',
+      startTime: '4:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];

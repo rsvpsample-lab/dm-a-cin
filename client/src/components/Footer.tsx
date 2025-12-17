@@ -20,12 +20,12 @@ const Footer = () => {
           {/* Couple Names */}
           <div>
             <h2 className="text-3xl sm:text-4xl mb-2 text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              Jirard Elmo
+              Robel
               <span className="text-primary mx-3">&</span>
-              Toni Kaith
+              Veronica
             </h2>
             <p className="text-foreground text-lg">
-              January 27, 2026
+              01.20.26 | Tuesday
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const Footer = () => {
               With love and gratitude,
             </p>
             <p className="text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              Jirard Elmo & Toni Kaith
+              Robel & Veronica
             </p>
           </div>
 
