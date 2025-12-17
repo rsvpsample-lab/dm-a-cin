@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, ChevronUp, Camera, Clock, Users, MessageCircle, MapPin, Hotel } from 'lucide-react';
+import { ChevronDown, ChevronUp, Clock, Users, MessageCircle, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const FAQSection = () => {
@@ -35,11 +35,6 @@ const FAQSection = () => {
       answer: "We totally understand that plans can change! However, invitations are reserved for the guests listed. If your plus one or household member can't make it, please reach out to us— we'll gladly assist you from there."
     },
     {
-      question: "Can I bring my kids during the event?",
-      icon: Users,
-      answer: "To help us fully enjoy our celebration of love, our wedding will be an adults-only event. Little ones from our immediate families and wedding party will, of course, be warmly welcomed."
-    },
-    {
       question: "What time should I arrive?",
       icon: Clock,
       answer: "We'd love for everyone to be seated and ready before the ceremony begins. Please plan to arrive 30 minutes to an hour early to account for parking, traffic, and a bit of mingling time!"
@@ -49,21 +44,6 @@ const FAQSection = () => {
       icon: MapPin,
       answer: "Yes! Parking is available at both the ceremony and reception venues. Please follow the instructions of the parking attendants at the ceremony and reception venues for a smooth experience."
     },
-    {
-      question: "Are there nearby hotels in the Ceremony and Reception area?",
-      icon: Hotel,
-      answer: "Absolutely! There are several hotels and Airbnb options nearby. For convenience, we recommend the Fynn Boutique Hotel. Let us know if you'd like a little help with your booking — we'd be happy to assist!"
-    },
-    {
-      question: "Can I take photos during the ceremony?",
-      icon: Camera,
-      answer: "We invite you to be fully present with us during this special moment. Please keep your phones and cameras away — our professional photographer will capture everything beautifully. Your smiles and presence mean the most to us!"
-    },
-    {
-      question: "Can I take photos during the reception?",
-      icon: Camera,
-      answer: "Yes, please do! Snap away during cocktail hour and the reception, and share your favorite memories using our official hashtags: #TheweddingofD&R and #D&R2026"
-    }
   ];
 
   return (
